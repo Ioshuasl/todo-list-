@@ -1,26 +1,31 @@
-#To-Do List
+# To-Do List
 
-##Sobre o projeto
 Minha primeira experiência como desenvolvedor backend, criei uma To-Do List básica que permite o usuário cadastrar, editar ou excluir tarefas dentro da aplicação. Como primeira experiência desenvolvendo uma aplicação backend foi muito importanta para mim pois conseguir aprender e aplicar Métodos CRUD, organização do meu projeto em pastas (config, controllers, models, routes) de acordo com suas devidas funcionalidades, estruturar e modelar um conteiner no Docker simulando um banco de dados PostgreSQL
 
-##Estrutura de pastas
+## Funcionalidades
+- Cadastro de tarefas
+- Listar tarefas cadastradas na aplicação
+- Edição de uma tarefa cadastrada na aplicação
+- Exclusão de uma tarefa cadastrada na aplicação
+
+## Estrutura de pastas
 
 ```plaintext
-/src             #código principal da aplicação
+/src                   #código principal da aplicação
 	/controllers   #funções de controle de rotas
 	/models        #modelos de dados do banco de dados
 	/routes        #Definição de rotas da API
 	/config        #Configuração para sincronizar a API com o banco de dados
-  index.js       #Arquivo principal da aplicação
+  index.js             #Arquivo principal para executar a aplicação
 ```
 
-##Tecnologias utilizadas:
+## Tecnologias utilizadas:
 - Node.js
 - Express.js
 - PostgreSQL
 - Docker
 
-##Rodando localmente
+## Rodando localmente
 
 - Clonar o repositório:
 ```plaintext
@@ -41,7 +46,3 @@ npm install
 ```plaintext
 node index.js
 ```
-
-##Funcionalidades
-explica o que seu projeto faz, detlhando cada funcionalidade
-	
